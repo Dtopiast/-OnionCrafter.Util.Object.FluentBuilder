@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>
+			This library provides a powerful and flexible Fluent Builder framework, designed to simplify the creation and configuration of complex objects in .NET applications. By utilizing a fluent interface, developers can build and customize objects with ease, enhancing code readability and maintainability in their projects
+		</Description>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionSuffix>beta</VersionSuffix>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<IncludeSymbols>True</IncludeSymbols>
+		<Copyright>Copyright 2024 Dtopiast</Copyright>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+		<FileVersion>$(VersionPrefix)</FileVersion>
+		<Version>$(VersionPrefix)</Version>
+		<Authors>Dtopiast</Authors>
+		<RepositoryType>git</RepositoryType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageIcon>JustLogo.png</PackageIcon>
+		<RepositoryUrl>https://github.com/Dtopiast/OnionCrafter</RepositoryUrl>
+		<PackageTags>Fluent Builder, Object Configuration, Fluent Interface, .NET Library, Code Readability, Object Creation, Customizable Objects, Flexible Framework, Code Maintainability, Complex Object Building, C#, Software Design, API Design</PackageTags>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\Images\JustLogo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
+
